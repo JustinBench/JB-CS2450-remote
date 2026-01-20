@@ -9,7 +9,7 @@ def getName():
     return name
 
 def guess():
-    return random.randint(15, 31)
+    return random.randint(20, 31)
 
 def getAnswer(age):
     answer = input("Are you " + str(age) + " years old? (y/n) ")

@@ -1,7 +1,7 @@
 import random
 
 def intro():
-    print("Hello! I'm going to guess your age!")
+    print("Hello! I'm going to guess your age, and if I'm wrong, I'll give you a million dollars!")
     return
 
 def getName():
@@ -19,7 +19,7 @@ def conclusion(name, age, answer):
     if answer == 'y':
         print(name + ' is ' + str(age) + ' years old.')
     else:
-        print("Rats.")
+        print("Rats. Well, I'm broke, so you don't get a million dollars.")
     return
 
 def main():

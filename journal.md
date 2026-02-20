@@ -27,3 +27,10 @@ I've noticed that in the two years I've been away, artificial intelligence has r
 I'm still a little confused about requirements for our group project. I think the rest of the group is as well. I went in today and added stuff to it, so if they rest of the group still thinks there should be more, than I will let them get to that on their own. The professional/business side of making a project is new to me, and I don't know if I really like it all that much. Regardless, I like my group, and I think we're figuring this thing out.
 
 We're starting to get into those weeks where we have exams at the end of whatever chapter or unit we've been covering. The issue is that all my classes are "if you fall behind, you die!" and I'm afraid I'm just skimming through all the material, finding answers to assignment questions in order to stay current with each class rather than actually learning anything.
+---
+
+2/20/26 - like whoops
+
+I just noticed I forgot last week, so oopsies.
+We got our presentation mostly complete, and we'll be finishing it up tomorrow. It seems pretty straightforward.
+Classes started at work! I quickly realized that taking a two-and-a-half year break, plus cutting stuff out of my lesson plan, made teaching a little weird. Next week should go better. I hope.

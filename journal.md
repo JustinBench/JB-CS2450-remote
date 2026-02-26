@@ -34,3 +34,10 @@ We're starting to get into those weeks where we have exams at the end of whateve
 I just noticed I forgot last week, so oopsies.
 We got our presentation mostly complete, and we'll be finishing it up tomorrow. It seems pretty straightforward.
 Classes started at work! I quickly realized that taking a two-and-a-half year break, plus cutting stuff out of my lesson plan, made teaching a little weird. Next week should go better. I hope.
+---
+
+2/26/25 - oh boy
+
+Our presentation went well! Although after seeing everyone else's, I'm worried. No one in our group has recent web development experience, so I'm not sure how easily we'll be able to actually build this thing.
+
+On a happier note, I'm all caught up with everything else!

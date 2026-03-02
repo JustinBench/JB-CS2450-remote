@@ -36,8 +36,13 @@ We got our presentation mostly complete, and we'll be finishing it up tomorrow. 
 Classes started at work! I quickly realized that taking a two-and-a-half year break, plus cutting stuff out of my lesson plan, made teaching a little weird. Next week should go better. I hope.
 ---
 
-2/26/25 - oh boy
+2/26/26 - oh boy
 
 Our presentation went well! Although after seeing everyone else's, I'm worried. No one in our group has recent web development experience, so I'm not sure how easily we'll be able to actually build this thing.
 
 On a happier note, I'm all caught up with everything else!
+---
+
+3/2/26 - One week until Spring break!
+
+So I guess I'm scrum master this week. I don't even know where to start on this project, but I guess we'll talk about it tomorrow. I expect to be using ChatGPT for most of the work...which is ironic since the point of Souly is to be AI free.

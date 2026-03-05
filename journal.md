@@ -46,3 +46,8 @@ On a happier note, I'm all caught up with everything else!
 3/2/26 - One week until Spring break!
 
 So I guess I'm scrum master this week. I don't even know where to start on this project, but I guess we'll talk about it tomorrow. I expect to be using ChatGPT for most of the work...which is ironic since the point of Souly is to be AI free.
+---
+
+3/5/2026 - I'm rusty
+
+So I've been playing with the CSS and now Souly has a some style! I the navigation design mostly done, but I can't really work on it further since we don't have our other html files set up quite yet. I may end up using AI to do most of this project for me. :\

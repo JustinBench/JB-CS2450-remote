@@ -51,3 +51,12 @@ So I guess I'm scrum master this week. I don't even know where to start on this 
 3/5/2026 - I'm rusty
 
 So I've been playing with the CSS and now Souly has a some style! I the navigation design mostly done, but I can't really work on it further since we don't have our other html files set up quite yet. I may end up using AI to do most of this project for me. :\
+---
+
+3/18/2026 - Back from Vacation
+
+So...Spring Break was kind of a waste. I don't care for Disney World. Then we got back at 5:30am Monday morning because our flight kept getting delayed. The fact that I made it through Monday classes is insane. I had a couple of tests so far this week, each one I'm feeling not incredibly confident about, so that's not great. Ryan got me sick, because I guess being sick once already this semester wasn't good enough.
+
+Souly is progressing nicely. I've gotten the CSS to a good spot and now I'm figuring out searching for people and tagged posts.
+
+I'm very tired.

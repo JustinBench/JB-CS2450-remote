@@ -60,3 +60,10 @@ So...Spring Break was kind of a waste. I don't care for Disney World. Then we go
 Souly is progressing nicely. I've gotten the CSS to a good spot and now I'm figuring out searching for people and tagged posts.
 
 I'm very tired.
+---
+
+3/26/26 - registration
+
+I got selenium working but I cannot find the example code so I guess I have to start from scratch :\
+
+Registration is open but all the classes I was planning on taking are at the same time :\

@@ -67,3 +67,12 @@ I'm very tired.
 I got selenium working but I cannot find the example code so I guess I have to start from scratch :\
 
 Registration is open but all the classes I was planning on taking are at the same time :\
+---
+
+4/3/2026 - i saw the mario movie
+
+Souly is progessing to a good point. One of the main points of the platform was to post music and artwork that's AI free, and we haven't implemented any AI screening process nor the ability to upload media. I'm not super happy with how the header works now, but I'm just going to go along with it rather than make a fuss. If this were for real I'd bring it up, but right now it's not worth it. I just want to get this project done.
+
+The mario movie was pretty good, for what it was. I was so excited to see Pikmin, but I didn't care for Fox McCloud.
+
+I feel like I got a lot done this week! The semester is at that point where every single class is becoming a challenge as finals approach, which is starting to stress me out. So far I've found balance and I hope I can keep that up.

@@ -18,122 +18,93 @@ def determine_insurance_plan():
     }
 
     # Determine plan using badly nested if statements
-    '''
+
     if age <= 18:
+        print("Sorry, you do not qualify for any plans.")
         return
-    if marital_status != "single":
-        return
-    if income >= 35000:
-        return
-    if health_level == "no":
-        print("\nRecommended Plan: Low Income Plan (Individual)")
-        print_plan_details("Low Income Plan", plans)
-        print("\nAlternate Plan: High-Deductible B (Individual)")
-        print_plan_details("High-Deductible B", plans)
-    else:
-        print("\nRecommended Plan: Low Income Plan (Individual)")
-        print_plan_details("Low Income Plan", plans)
-        print("\nAlternate Plan: Regular Plan A (Individual)")
-        print_plan_details("Regular Plan A", plans)
-    '''
     
-    if age > 18:
-        if marital_status == "single":
-            if income < 35000:
+    if marital_status == "single":
+        if income < 35000:
+            if health_level == "no":
+                print("\nRecommended Plan: Low Income Plan (Individual)")
+                print_plan_details("Low Income Plan", plans)
+                print("\nAlternate Plan: High-Deductible B (Individual)")
+                print_plan_details("High-Deductible B", plans)
+            else:
+                print("\nRecommended Plan: Low Income Plan (Individual)")
+                print_plan_details("Low Income Plan", plans)
+                print("\nAlternate Plan: Regular Plan A (Individual)")
+                print_plan_details("Regular Plan A", plans)
+        else:
+            if health_level == "no":
+                if income > 50000:
+                    print("\nRecommended Plan: High-Deductible B (Individual)")
+                    print_plan_details("High-Deductible B", plans)
+                    print("\nAlternate Plan: High-Deductible A (Individual)")
+                    print_plan_details("High-Deductible A", plans)
+                else:
+                    print("\nRecommended Plan: High-Deductible A (Individual)")
+                    print_plan_details("High-Deductible A", plans)
+                    print("\nAlternate Plan: Regular Plan A (Individual)")
+                    print_plan_details("Regular Plan A", plans)
+            else:
+                if income > 50000:
+                    print("\nRecommended Plan: Regular Plan A (Individual)")
+                    print_plan_details("Regular Plan A", plans)
+                    print("\nAlternate Plan: Regular Plan B (Individual)")
+                    print_plan_details("Regular Plan B", plans)
+                else:
+                    print("\nRecommended Plan: Regular Plan B (Individual)")
+                    print_plan_details("Regular Plan B", plans)
+                    print("\nAlternate Plan: High-Deductible A (Individual)")
+                    print_plan_details("High-Deductible A", plans)
+    else:  # Married
+        if has_children == "yes":
+            if income < 65000:
                 if health_level == "no":
-                    print("\nRecommended Plan: Low Income Plan (Individual)")
+                    print("\nRecommended Plan: Low Income Plan (Family)")
                     print_plan_details("Low Income Plan", plans)
+                    print("\nAlternate Plan: High-Deductible A (Family)")
+                    print_plan_details("High-Deductible A", plans)
+                else:
+                    print("\nRecommended Plan: Low Income Plan (Family)")
+                    print_plan_details("Low Income Plan", plans)
+                    print("\nAlternate Plan: Regular Plan A (Family)")
+                    print_plan_details("Regular Plan A", plans)
+            else:
+                if health_level == "no":
+                    print("\nRecommended Plan: High-Deductible A (Family)")
+                    print_plan_details("High-Deductible A", plans)
+                    print("\nAlternate Plan: High-Deductible B (Family)")
+                    print_plan_details("High-Deductible B", plans)
+                else:
+                    print("\nRecommended Plan: Regular Plan A (Family)")
+                    print_plan_details("Regular Plan A", plans)
+                    print("\nAlternate Plan: Regular Plan B (Family)")
+                    print_plan_details("Regular Plan B", plans)
+        else:
+            if income > 50000:
+                if health_level == "no":
+                    print("\nRecommended Plan: High-Deductible A (Individual)")
+                    print_plan_details("High-Deductible A", plans)
                     print("\nAlternate Plan: High-Deductible B (Individual)")
                     print_plan_details("High-Deductible B", plans)
                 else:
-                    print("\nRecommended Plan: Low Income Plan (Individual)")
-                    print_plan_details("Low Income Plan", plans)
+                    print("\nRecommended Plan: Regular Plan B (Individual)")
+                    print_plan_details("Regular Plan B", plans)
                     print("\nAlternate Plan: Regular Plan A (Individual)")
                     print_plan_details("Regular Plan A", plans)
             else:
                 if health_level == "no":
-                    if income > 50000:
-                        print("\nRecommended Plan: High-Deductible B (Individual)")
-                        print_plan_details("High-Deductible B", plans)
-                        print("\nAlternate Plan: High-Deductible A (Individual)")
-                        print_plan_details("High-Deductible A", plans)
-                    else:
-                        print("\nRecommended Plan: High-Deductible A (Individual)")
-                        print_plan_details("High-Deductible A", plans)
-                        print("\nAlternate Plan: Regular Plan A (Individual)")
-                        print_plan_details("Regular Plan A", plans)
+                    print("\nRecommended Plan: High-Deductible B (Individual)")
+                    print_plan_details("High-Deductible B", plans)
+                    print("\nAlternate Plan: High-Deductible A (Individual)")
+                    print_plan_details("High-Deductible A", plans)
                 else:
-                    if income > 50000:
-                        print("\nRecommended Plan: Regular Plan A (Individual)")
-                        print_plan_details("Regular Plan A", plans)
-                        print("\nAlternate Plan: Regular Plan B (Individual)")
-                        print_plan_details("Regular Plan B", plans)
-                    else:
-                        print("\nRecommended Plan: Regular Plan B (Individual)")
-                        print_plan_details("Regular Plan B", plans)
-                        print("\nAlternate Plan: High-Deductible A (Individual)")
-                        print_plan_details("High-Deductible A", plans)
-        else:  # Married
-            if has_children == "yes":
-                if income < 65000:
-                    if health_level == "no":
-                        print("\nRecommended Plan: Low Income Plan (Family)")
-                        print_plan_details("Low Income Plan", plans)
-                        print("\nAlternate Plan: High-Deductible A (Family)")
-                        print_plan_details("High-Deductible A", plans)
-                    else:
-                        print("\nRecommended Plan: Low Income Plan (Family)")
-                        print_plan_details("Low Income Plan", plans)
-                        print("\nAlternate Plan: Regular Plan A (Family)")
-                        print_plan_details("Regular Plan A", plans)
-                else:
-                    if health_level == "no":
-                        if income > 50000:
-                            print("\nRecommended Plan: High-Deductible A (Family)")
-                            print_plan_details("High-Deductible A", plans)
-                            print("\nAlternate Plan: High-Deductible B (Family)")
-                            print_plan_details("High-Deductible B", plans)
-                        else:
-                            print("\nRecommended Plan: High-Deductible B (Family)")
-                            print_plan_details("High-Deductible B", plans)
-                            print("\nAlternate Plan: Regular Plan A (Family)")
-                            print_plan_details("Regular Plan A", plans)
-                    else:
-                        if income > 50000:
-                            print("\nRecommended Plan: Regular Plan A (Family)")
-                            print_plan_details("Regular Plan A", plans)
-                            print("\nAlternate Plan: Regular Plan B (Family)")
-                            print_plan_details("Regular Plan B", plans)
-                        else:
-                            print("\nRecommended Plan: Regular Plan B (Family)")
-                            print_plan_details("Regular Plan B", plans)
-                            print("\nAlternate Plan: High-Deductible A (Family)")
-                            print_plan_details("High-Deductible A", plans)
-            else:
-                if income > 50000:
-                    if health_level == "no":
-                        print("\nRecommended Plan: High-Deductible A (Individual)")
-                        print_plan_details("High-Deductible A", plans)
-                        print("\nAlternate Plan: High-Deductible B (Individual)")
-                        print_plan_details("High-Deductible B", plans)
-                    else:
-                        print("\nRecommended Plan: Regular Plan B (Individual)")
-                        print_plan_details("Regular Plan B", plans)
-                        print("\nAlternate Plan: Regular Plan A (Individual)")
-                        print_plan_details("Regular Plan A", plans)
-                else:
-                    if health_level == "no":
-                        print("\nRecommended Plan: High-Deductible B (Individual)")
-                        print_plan_details("High-Deductible B", plans)
-                        print("\nAlternate Plan: High-Deductible A (Individual)")
-                        print_plan_details("High-Deductible A", plans)
-                    else:
-                        print("\nRecommended Plan: Regular Plan A (Individual)")
-                        print_plan_details("Regular Plan A", plans)
-                        print("\nAlternate Plan: Regular Plan B (Individual)")
-                        print_plan_details("Regular Plan B", plans)
-    else:
-        print("Sorry, you do not qualify for any plans.")
+                    print("\nRecommended Plan: Regular Plan A (Individual)")
+                    print_plan_details("Regular Plan A", plans)
+                    print("\nAlternate Plan: Regular Plan B (Individual)")
+                    print_plan_details("Regular Plan B", plans)
 
 def print_plan_details(plan_name, plans):
     """Print details of a given insurance plan."""

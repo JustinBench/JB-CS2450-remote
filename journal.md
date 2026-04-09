@@ -76,3 +76,10 @@ Souly is progessing to a good point. One of the main points of the platform was 
 The mario movie was pretty good, for what it was. I was so excited to see Pikmin, but I didn't care for Fox McCloud.
 
 I feel like I got a lot done this week! The semester is at that point where every single class is becoming a challenge as finals approach, which is starting to stress me out. So far I've found balance and I hope I can keep that up.
+---
+
+4/9/26 - :/
+
+I've been distracted by Minecraft, but this week hasn't been too bad. Souly still lacks the main feature we wanted to have, so hopefully we can get posting functionality all done soon.
+
+I think I did well on my math test, and the Discrete Structures test doesn't really worry me either, so I think this week should be pretty worry free other than that one assignment for Computer Networking.

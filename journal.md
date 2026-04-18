@@ -83,3 +83,14 @@ I feel like I got a lot done this week! The semester is at that point where ever
 I've been distracted by Minecraft, but this week hasn't been too bad. Souly still lacks the main feature we wanted to have, so hopefully we can get posting functionality all done soon.
 
 I think I did well on my math test, and the Discrete Structures test doesn't really worry me either, so I think this week should be pretty worry free other than that one assignment for Computer Networking.
+---
+
+4/18/26 - Everything is fine
+
+Everything has been coming together! The project is almost complete, which is great since we're presenting next week. Today is Saturday. It's 1:56 AM.
+
+Sadly, the AI screening software we wanted to use for Souly costs $1,000 a month, and we have no investors, so as of right now, we're using a checkbox and the honor system. Works for me.
+
+I've appreciated working with a team like this. I haven't done anything like it before. Sure, I've had group assignments or projects in high school, but not like this. I actually enjoyed it.
+
+On the topic of AI, I don't know if I should be excited or concerned about how much I used it for the project. Souly has reached a point where I'm not entirely sure how it even works, so if there's a bug or something, and I'm out of messages to Codex, there's nothing I can do. It fascinates me how far AI has come just in the last couple years while I've been away in Indiana, but my fear is becoming dependent on it.

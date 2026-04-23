@@ -94,3 +94,9 @@ Sadly, the AI screening software we wanted to use for Souly costs $1,000 a month
 I've appreciated working with a team like this. I haven't done anything like it before. Sure, I've had group assignments or projects in high school, but not like this. I actually enjoyed it.
 
 On the topic of AI, I don't know if I should be excited or concerned about how much I used it for the project. Souly has reached a point where I'm not entirely sure how it even works, so if there's a bug or something, and I'm out of messages to Codex, there's nothing I can do. It fascinates me how far AI has come just in the last couple years while I've been away in Indiana, but my fear is becoming dependent on it.
+---
+4/23/26
+
+The project is done! It was actually pretty fun to make, too.
+
+I am ready for the semester to be over. :) I'm tired.
